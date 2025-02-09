@@ -2,11 +2,11 @@
 ```markdown
 # JavaScript Hoisting Explained
 
-In JavaScript, **hoisting** applies to **variable declarations** and **function declarations**. However, the exact behavior depends on how the variable or function is declared (using `var`, `let`, `const`, or function declarations/expressions). Here’s a breakdown of what exactly gets hoisted:
+In JavaScript, hoisting applies to variable declarations and function declarations. However, the exact behavior depends on how the variable or function is declared (using `var`, `let`, `const`, or function declarations/expressions). Here’s a breakdown of what exactly gets hoisted:
 
-## 1. **Variable Declarations (`var`)**
-- **What gets hoisted**: Only the **declaration** of the variable (not the assignment).
-- **How it behaves**: The declaration is moved to the top of the scope and is initialized with `undefined`.
+## 1. Variable Declarations (`var`)
+- What gets hoisted: Only the declaration of the variable (not the assignment).
+- How it behaves: The declaration is moved to the top of the scope and is initialized with `undefined`.
 
 #### Example:
 ```javascript

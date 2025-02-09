@@ -5,9 +5,11 @@
 The difference between `null` and `undefined` in JavaScript lies in their meaning and usage:
 
 #### 1. `undefined`:
-- **Meaning**: It represents a variable that has been declared but has not yet been assigned a value. It’s the default value assigned to variables that are declared but not initialized.
-- **Type**: `undefined` is its own type in JavaScript (`typeof undefined` is `"undefined"`).
-- **Use cases**: It’s often used to indicate that a value is missing, uninitialized, or unknown. For example:
+- Meaning: It represents a variable that has been declared but has not yet been assigned a value. 
+  It’s the default value assigned to variables that are declared but not initialized.
+
+- Type: `undefined` is its own type in JavaScript (`typeof undefined` is `"undefined"`).
+- Use cases: It’s often used to indicate that a value is missing, uninitialized, or unknown. For example:
   ```javascript
   let a;
   console.log(a); // undefined (variable is declared but not initialized)

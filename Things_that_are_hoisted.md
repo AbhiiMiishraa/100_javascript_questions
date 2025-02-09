@@ -9,8 +9,7 @@ In JavaScript, hoisting applies to variable declarations and function declaratio
 - How it behaves: The declaration is moved to the top of the scope and is initialized with `undefined`.
 
 #### Example:
-```javascript
-console.log(a); // undefined
+```console.log(a); // undefined
 var a = 10;
 console.log(a); // 10
 ```
